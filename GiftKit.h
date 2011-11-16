@@ -43,6 +43,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "Constants.h"
 
 extern NSString *const kGiftKitFirstUseDate;
 extern NSString *const kGiftKitUseCount;
@@ -54,7 +55,7 @@ extern NSString *const kGiftKitDeclinedToGift;
 /* 
 // Place your Apple generated software id here. 
 */
-#define GIFTKIT_APP_ID						416325094
+#define GIFTKIT_APP_ID						kAppID
 
 /*
 // Your app's name. Uses the Bundle display name by default.
